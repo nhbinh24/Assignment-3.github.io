@@ -1,0 +1,480 @@
+@media only screen and (max-width: 992px) and (min-width: 577px) {
+  * {
+    margin: 0px;
+  }
+
+  .bg-grey {
+    background: #f7f7f7;
+  }
+  .container {
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+  }
+  .container div {
+    display: none;
+  }
+  .container img {
+    width: 100%;
+    height: 40%;
+  }
+  .nav {
+    background-color: #ffffff;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding-left: 45px;
+  }
+  .nav li-1 {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    border-left: 1px solid #cecece;
+    padding-left: 30px;
+  }
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    border-left: 1px solid #cecece;
+  }
+  .nav img {
+    width: 150px;
+    height: 150px;
+    border: 10px solid white;
+    border-radius: 50%;
+  }
+  .nav img {
+    display: none;
+  }
+  .nav1 {
+    background-color: #e2e2e2;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+  .nav1 li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .nav2 {
+    border: 1px solid rgb(220, 220, 220);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+  }
+  .grid-item-kinhnghiem {
+    border: 1px solid #cecece;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  .grid-item-hoatdong {
+    border: 1px solid #cecece;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .grid-item-sothich {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .grid-item-muctieunghenghiep {
+    background-color: #eee;
+    border: 1px rgb(21, 19, 19);
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 13px;
+    text-align: left;
+  }
+  .section-content-muctieunghenghiep {
+    padding-top: 40px;
+  }
+  .grid-item-thongtincanhan {
+    background-color: rgb(127 127 127 / 30%);
+    border: 1px rgb(21, 19, 19);
+    padding-left: 50px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    font-size: 15px;
+    text-align: left;
+  }
+  .section-content-thongtincanhan {
+    padding-top: 30px;
+  }
+  .section-content-thongtincanhan ul {
+    padding: 0px;
+  }
+  .section-content i {
+    font-size: 20px;
+    padding-top: 30px;
+    margin: 5px;
+    color: rgb(93, 93, 234);
+  }
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+  .grid-container3 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: rgb(255, 255, 255);
+    /*padding: 10px;*/
+  }
+  .grid-item-kinang {
+    /*margin: 20px;*/
+    margin-right: 20px;
+  }
+  .grid-item-ngonngu {
+    margin: 20px;
+    margin-left: 0px;
+  }
+  .grid-item-hocvan {
+    margin: 20px;
+    margin-left: 0px;
+  }
+  .grid-item-icon {
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(21, 19, 19);
+    padding-left: 0px;
+    padding-right: 0px;
+
+    padding-top: 20px;
+    font-size: 17px;
+    text-align: left;
+  }
+  .grid-item-kinhnghiem-hoatdong {
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(21, 19, 19);
+    padding-left: 30px;
+    padding-right: 0px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    text-align: left;
+  }
+  .grid-item6 {
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(21, 19, 19);
+    padding-left: 30px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    font-size: 17px;
+    text-align: left;
+  }
+  .grid-item7 {
+    background-color: #eee;
+    margin-bottom: 50px;
+    border-right: 1px solid #d6c08d;
+
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+    font-size: 17px;
+    text-align: left;
+  }
+  .grid-item7 img {
+    width: 100%;
+    float: left;
+    margin-right: 30px;
+  }
+  .grid-item7-1 {
+    padding-right: 20px;
+    padding-top: 50px;
+    font-size: 17px;
+    text-align: left;
+    background-color: #eee;
+    border-top: 1px solid #d6c08d;
+  }
+  .grid-item7-1 img {
+    width: 100%;
+  }
+  .grid-item8 {
+    background-color: #eee;
+    border-bottom: 1px solid #d6c08d;
+
+    padding-left: 20px;
+    padding-right: 0px;
+
+    padding-bottom: 20px;
+    font-size: 17px;
+    text-align: left;
+  }
+  .grid-item8 img {
+    width: 100%;
+  }
+
+  .grid-item-duan-cot1 {
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(21, 19, 19);
+    /*padding-left: 120px;
+    padding-right: 0px;
+    padding-top: 20px;*/
+    margin-right: 20px;
+    font-size: 17px;
+    text-align: left;
+  }
+  .grid-item-duan-cot1 img {
+    width: 100%;
+    height: 270px;
+
+    margin-bottom: -5px;
+  }
+  .grid-item-duan-cot1 div {
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 15px;
+    border-left: 1px solid rgb(220, 220, 220);
+    border-right: 1px solid rgb(220, 220, 220);
+    border-top: 1px solid rgb(220, 220, 220);
+  }
+  .grid-item-duan-cot1 td {
+    border: 1px solid rgb(220, 220, 220);
+    text-align: left;
+    color: #8e8e8e;
+    padding: 16.4px;
+  }
+
+  .grid-item10 {
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(21, 19, 19);
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 17px;
+    text-align: left;
+    padding-bottom: 5px;
+  }
+  .grid-item10 td {
+    border: 1px solid rgb(220, 220, 220);
+    text-align: left;
+    color: #8e8e8e;
+    padding: 10px;
+  }
+  .grid-item11 {
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(21, 19, 19);
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 20px;
+    /*margin-right: 10px;*/
+    font-size: 17px;
+    text-align: left;
+  }
+  .grid-item11 td {
+    border: 1px solid rgb(220, 220, 220);
+    text-align: left;
+    color: #8e8e8e;
+    padding: 13px;
+  }
+  .section-content1 {
+    padding-left: 25px;
+    display: none;
+  }
+  .section-content1 ul {
+    padding-top: 20px;
+    padding-right: 50px;
+  }
+  /*.section-content2 {
+    display: none;
+  }*/
+  .section-content2 ul {
+    padding-top: 10px;
+    padding-right: 0px;
+  }
+  /*.section-content3 {
+    display: none;
+  }*/
+  .section-content3 ul {
+    padding-top: 30px;
+    padding-right: 0px;
+  }
+  .section-content4 ul {
+    list-style-type: none;
+    padding: 0px;
+  }
+  /*.section-content5 {
+    display: none;
+    margin-top: 20px;
+  }*/
+  .container-form input {
+    width: 90%;
+    border: 2px solid #9c9c9c;
+    border-radius: 5px;
+  }
+  /*.container-form input {
+    border: 2px solid #9c9c9c;
+    border-radius: 5px;
+    background-color: #3d89bb;
+    padding: 4px 8px;
+  }*/
+  .container-form input-1 {
+    border: 2px solid #9c9c9c;
+    border-radius: 5px;
+    background-color: #3d89bb;
+    padding: 5px;
+    color: white;
+  }
+  .flex-container {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+  }
+  .flex-container1 {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+  }
+
+  /*.flex-container > div {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+    border: 5px solid rgb(127, 179, 251);
+    border-radius: 50%;
+  }*/
+
+  .flex-container1 > div {
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 0px;
+  }
+  .section-title-chungchi-giaithuong {
+    font-size: 34px;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    background-color: #eee;
+    margin-bottom: 0px;
+  }
+  .grid-container-chungchi-giaithuong {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0px;
+    background-color: #eee;
+    padding-bottom: 60px;
+  }
+  .section-title4 {
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 35px;
+  }
+  .grid-container4 {
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+  .grid-item-kinhnghiem button {
+    border: 2px solid #f6f6a5;
+    border-radius: 15px;
+    padding: 5px 25px 5px 25px;
+    background-color: #f6f6a5;
+    margin: 30px;
+  }
+  .grid-item-kinang button {
+    border: 2px solid #f6f6a5;
+    border-radius: 15px;
+    padding: 5px 25px 5px 25px;
+    background-color: #f6f6a5;
+    margin: 30px;
+  }
+  .grid-item-ngonngu button {
+    border: 2px solid #f6f6a5;
+    border-radius: 15px;
+    padding: 5px 25px 5px 25px;
+    background-color: #f6f6a5;
+    margin: 30px;
+  }
+  .grid-item-hoatdong button {
+    border: 2px solid #f6f6a5;
+    border-radius: 15px;
+    padding: 5px 25px 5px 25px;
+    background-color: #f6f6a5;
+    margin: 30px;
+  }
+  .grid-item-hocvan button {
+    border: 2px solid #f6f6a5;
+    border-radius: 15px;
+    padding: 5px 25px 5px 25px;
+    background-color: #f6f6a5;
+    margin: 30px;
+  }
+  .grid-item-sothich button {
+    border: 2px solid #f6f6a5;
+    border-radius: 15px;
+    padding: 5px 25px 5px 25px;
+    background-color: #f6f6a5;
+    margin: 30px;
+  }
+  .grid-container5 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  .grid-item-sothich1 {
+    background-color: #ffffff;
+    margin: 5px;
+    /*padding: 10px;*/
+    font-size: 30px;
+    border: 5px solid rgb(127, 179, 251);
+    border-radius: 60%;
+    /*padding-left: 20px;*/
+  }
+  /*.hidden {
+    display: none;
+  }*/
+  .hidden {
+    display: none;
+    /*font-size: 20px;*/
+  }
+  .grid-item-kinhnghiem {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  /*.grid-item-kinang {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .grid-item-sothich {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }*/
+  .grid-item-hoatdong {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .grid-item-hocvan {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: 0px;
+    margin-left: 20px;
+  }
+}

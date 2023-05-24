@@ -1,0 +1,475 @@
+@media only screen and (min-width: 992px) {
+  * {
+    margin: 0px;
+  }
+
+  .bg-grey {
+    background: #f7f7f7;
+  }
+
+  section > .container {
+    width: 1170px;
+    margin: auto;
+    display: block;
+
+    padding: 30px 50px;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+    padding: 0px;
+    margin: 0px;
+  }
+  .container img {
+    width: 115%;
+    height: 40%;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #nav-bar {
+    text-align: center;
+  }
+  .nav {
+    background-color: #ffffff;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding-left: 25%;
+  }
+  .nav li-1 {
+    display: center;
+    font-size: 20px;
+    padding: 20px;
+    border-left: 1px solid #cecece;
+    padding-left: 135px;
+    padding-right: 30px;
+  }
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    border-left: 1px solid #cecece;
+  }
+  .nav img {
+    width: 150px;
+    height: 150px;
+    border: 10px solid white;
+    border-radius: 50%;
+  }
+  .nav1 {
+    background-color: #e2e2e2;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+  .nav1 li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .nav2 {
+    border: 1px solid rgb(220, 220, 220);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+  }
+  .grid-item-kinhnghiem {
+    border: 1px solid #cecece;
+    margin-left: 190px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  .grid-item-hoatdong {
+    border: 1px solid #cecece;
+    margin-left: 190px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  .grid-item-muctieunghenghiep {
+    background-color: #eee;
+    border: 1px rgb(21, 19, 19);
+    padding-left: 100px;
+    padding-right: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+  }
+  .section-content-muctieunghenghiep {
+    padding-top: 30px;
+  }
+  .grid-item-thongtincanhan {
+    background-color: rgb(127 127 127 / 30%);
+    border: 1px rgb(21, 19, 19);
+    padding-left: 50px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 15px;
+    text-align: left;
+    margin-right: 50px;
+  }
+  .section-content-thongtincanhan {
+    padding-top: 30px;
+  }
+  .section-content-thongtincanhan ul {
+    padding: 0px;
+  }
+  .section-content ul i {
+    font-size: 20px;
+    padding-top: 30px;
+    margin: 5px;
+    color: rgb(93, 93, 234);
+  }
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: 37% 26% 25%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+  .grid-container3 {
+    display: grid;
+    grid-template-columns: 37% 30% 33%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+  .grid-item-kinang {
+    margin: 20px;
+  }
+  .grid-item-hocvan {
+    margin: 20px;
+  }
+  .grid-item-ngonngu {
+    margin: 20px;
+  }
+  .grid-item-sothich {
+    margin: 20px;
+  }
+  .grid-item-icon {
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(21, 19, 19);
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    text-align: left;
+  }
+  .grid-item-kinhnghiem-hoatdong {
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(21, 19, 19);
+    /*padding-left: 30px;
+    padding-right: 0px;*/
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    text-align: left;
+  }
+  .grid-item6 {
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(21, 19, 19);
+    padding-left: 20px;
+    padding-top: 80px;
+    padding-bottom: 0px;
+    font-size: 17px;
+    text-align: left;
+  }
+  .grid-item7 {
+    background-color: #eee;
+    margin-bottom: 50px;
+    border-right: 1px solid #d6c08d;
+    border: 1px rgb(21, 19, 19);
+    margin-left: 160px;
+    padding-right: 0px;
+    padding-top: 50px;
+    font-size: 17px;
+    text-align: left;
+  }
+  .grid-item7 img {
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+  }
+  .grid-item7-1 {
+    border: 1px rgb(21, 19, 19);
+    margin-left: 160px;
+    padding-right: 0px;
+    padding-top: 50px;
+    font-size: 17px;
+    text-align: left;
+    background-color: #eee;
+    border-top: 1px solid #d6c08d;
+  }
+  .grid-item7-1 img {
+    float: left;
+    margin-right: 10px;
+    width: 40%;
+  }
+  .grid-item8 {
+    background-color: #eee;
+    border-bottom: 1px solid #d6c08d;
+    border: 1px rgb(21, 19, 19);
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    text-align: left;
+    margin-right: 160px;
+  }
+  .grid-item8 img {
+    float: left;
+    margin-right: 10px;
+    margin-left: 40px;
+    width: 40%;
+  }
+  .grid-item-duan-cot1 {
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(21, 19, 19);
+    padding-left: 80px;
+    padding-right: 0px;
+    padding-top: 20px;
+    margin-right: 30px;
+    font-size: 17px;
+    text-align: left;
+  }
+  .grid-item-duan-cot1 img {
+    width: 100%;
+    height: 300px;
+    padding-top: 30px;
+    margin-bottom: -5px;
+  }
+  .grid-item-duan-cot1 div {
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-left: 1px solid rgb(220, 220, 220);
+    border-right: 1px solid rgb(220, 220, 220);
+    border-top: 1px solid rgb(220, 220, 220);
+  }
+  .grid-item-duan-cot1 td {
+    border: 1px solid rgb(220, 220, 220);
+    text-align: left;
+    color: #8e8e8e;
+    padding: 3.6%;
+  }
+  .grid-item10 {
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(21, 19, 19);
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 50px;
+    margin-right: 30px;
+    font-size: 17px;
+    text-align: left;
+  }
+  .grid-item10 td {
+    border: 1px solid rgb(220, 220, 220);
+    text-align: left;
+    color: #8e8e8e;
+    padding: 2.8%;
+  }
+  .grid-item11 {
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(21, 19, 19);
+    padding-left: 0px;
+    padding-right: 40px;
+    padding-top: 50px;
+    margin-right: 30px;
+    font-size: 17px;
+    text-align: left;
+  }
+  .grid-item11 td {
+    border: 1px solid rgb(220, 220, 220);
+    text-align: left;
+    color: #8e8e8e;
+    padding: 3.7%;
+  }
+  .section-content1 {
+    display: none;
+  }
+  .section-content1 ul {
+    /* padding-left: 190px; */
+    padding-top: 20px;
+    padding-right: 50px;
+  }
+  .section-content2 {
+    padding-top: 40px;
+    display: none;
+  }
+  .section-content2 ul {
+    padding-top: 10px;
+    padding-right: 0px;
+  }
+  .section-content3 {
+    display: none;
+  }
+  .section-content3 ul {
+    padding-top: 30px;
+    padding-right: 0px;
+  }
+  .section-content4 {
+    padding-left: 190px;
+  }
+  .section-content4 ul {
+    list-style-type: none;
+    padding-bottom: 20px;
+  }
+  .section-content5 {
+    display: none;
+  }
+  .flex-container {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+  }
+  .flex-container1 {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+  }
+
+  /*.flex-container > div {
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 10px;
+    font-size: 30px;
+    border: 5px solid rgb(127, 179, 251);
+    border-radius: 60%;
+    padding-left: 20px;
+  }*/
+  .flex-container1 > div {
+    background-color: #ffffff;
+    margin: 7px;
+    padding: 0px;
+  }
+  .section-title-chungchi-giaithuong {
+    padding-left: 190px;
+    font-size: 34px;
+    padding-top: 50px;
+    background-color: #eee;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+  }
+  .grid-container-chungchi-giaithuong {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0px;
+    background-color: #eee;
+    padding-bottom: 60px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .section-title4 {
+    padding-left: 130px;
+    padding-top: 50px;
+    font-size: 35px;
+  }
+  .container-form input {
+    width: 120%;
+    border: 2px solid #9c9c9c;
+    border-radius: 5px;
+  }
+  .container-form input-1 {
+    border: 2px solid #9c9c9c;
+    border-radius: 5px;
+    background-color: #3d89bb;
+    padding: 5px;
+    color: white;
+  }
+
+  .grid-container4 {
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+  .grid-item-kinhnghiem button {
+    border: 2px solid #f6f6a5;
+    border-radius: 15px;
+    padding: 5px 25px 5px 25px;
+    background-color: #f6f6a5;
+    margin: 30px;
+  }
+  .grid-item-kinang button {
+    border: 2px solid #f6f6a5;
+    border-radius: 15px;
+    padding: 5px 25px 5px 25px;
+    background-color: #f6f6a5;
+    margin: 30px;
+  }
+  .grid-item-ngonngu button {
+    border: 2px solid #f6f6a5;
+    border-radius: 15px;
+    padding: 5px 25px 5px 25px;
+    background-color: #f6f6a5;
+    margin: 30px;
+  }
+  .grid-item-hoatdong button {
+    border: 2px solid #f6f6a5;
+    border-radius: 15px;
+    padding: 5px 25px 5px 25px;
+    background-color: #f6f6a5;
+    margin: 30px;
+  }
+  .grid-item-hocvan button {
+    border: 2px solid #f6f6a5;
+    border-radius: 15px;
+    padding: 5px 25px 5px 25px;
+    background-color: #f6f6a5;
+    margin: 30px;
+  }
+  .grid-item-sothich button {
+    border: 2px solid #f6f6a5;
+    border-radius: 15px;
+    padding: 5px 25px 5px 25px;
+    background-color: #f6f6a5;
+    margin: 30px;
+    margin-top: 20px;
+  }
+  .hidden {
+    /*display: none;*/
+    font-size: 20px;
+  }
+  .grid-container5 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  .grid-item-sothich1 {
+    background-color: #ffffff;
+    margin: 5px;
+    /*padding: 10px;*/
+    font-size: 30px;
+    border: 5px solid rgb(127, 179, 251);
+    border-radius: 60%;
+    /*padding-left: 20px;*/
+  }
+  .hidden {
+    display: none;
+  }
+  .hide {
+    display: none;
+  }
+}

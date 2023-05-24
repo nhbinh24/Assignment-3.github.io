@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/laptop.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/table.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="Pictures/banner.jpg"
+        alt="Banner"
+        
+      />
+      <div
+        class="centered"
+        style="font-size: 45px; padding-bottom: 200px; font-family: Arial"
+      >
+        Nguyễn Hương Bình
+      </div>
+      <div class="centered" style="padding-bottom: 80px; color: aliceblue">
+        Full Stack Developer
+      </div>
+    </div>
+    <ul class="nav" >
+      <li style="margin-right: 10px;">
+        <i class="fa fa-user" style="color: blue"></i>
+        <a  style="font-family: Arial; color:black ">Thông Tin</a>
+      </li>
+      <li >
+        <i class="fa fa-file-text" style="color: blue"></i>
+        <a style="font-family: Arial; color:black">Lý lịch</a>
+      </li>
+      <li-1 >
+        <a
+        style="
+        position: absolute;
+        left: 44%;
+        top: 90%;
+        "
+          ><img src="images/default-avatar.png"/></a>
+      </li-1> 
+      <li>
+        <i class="fa fa-envelope" style="color: blue"></i>
+        <a style="font-family: Arial; color:black">Chứng Chỉ</a>
+      </li>
+      <li style="border-right: 1px solid #cecece">
+        <i class="fa fa-star" style="color: blue"></i>
+        <a style="font-family: Arial; color:black">Dự án</a>
+      </li>
+    </ul>
+    <div class="grid-container">
+      <div class="grid-item-muctieunghenghiep">
+        <h2 class="section-title">Mục tiêu nghề nghiệp</h2>
+        
+        <div class="section-content-muctieunghenghiep" >
+          Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp của
+          FUNiX. Em mong muốn mình sẽ được làm việc với vị trí Fullstack
+          Developer, có thể vận dụng những kiến thức đã được trau dồi và không
+          ngừng học hỏi để phát triển bản thân, cũng như hoàn thành tốt nhất
+          công việc được giao.
+        </div>
+      </div>
+      <div class="grid-item-thongtincanhan">
+        <h2 class="section-title">Thông tin cá nhân</h2>
+        <form id="frm1" method="post" class="container-form">
+          <p>
+            <ul style="list-style-type: none; padding:0px">
+            <li><input type="text" class="txt" id="un" name="un" placeholder="Enter email" autocomplete="off" autofocus /></li>
+            <li><label>Hãy nhập email để xác thực</label></li>
+          </ul>
+          </p>
+          <p>
+            <label></label>
+            <input-1 id="btnsubmit" onclick='myfunction()' type = "submit" value = "Submit">Submit</input-1>
+          </p>
+        </form>
+        <div id="hidden" class="hidden">
+        <div class="section-content-thongtincanhan" value="thongtin">
+          <ul style="list-style-type: none">
+            <li style="margin: 10px"><b>Giới tính:</b> Nữ</li>
+            <li style="margin: 10px"><b>Ngày sinh:</b> 19/05/2000</li>
+            <li style="margin: 10px"><b>Điện thoại:</b> (+84)912398698</li>
+            <li style="margin: 10px"><b>Email:</b> binhnh@funix.edu.vn</li>
+            <li style="margin: 10px"><b>Địa chỉ:</b> Số 10, đường 10, Hà Nội</li>
+            <li style="margin: 10px"><b>Website:</b> https://abc.tech</li>
+          </ul>
+          <i
+            class="fa fa-twitter"
+            style="color: rgb(1, 18, 207); margin: 10px; font-size: 20px"
+          ></i>
+          <i
+            class="fa fa-facebook"
+            style="color: rgb(1, 18, 207); margin: 10px; font-size: 20px"
+          ></i>
+          <i
+            class="fa fa-google"
+            style="color: rgb(1, 18, 207); margin: 10px; font-size: 20px"
+          ></i>
+          <i
+            class="fa fa-linkedin"
+            style="color: rgb(1, 18, 207); margin: 10px; font-size: 20px"
+          ></i>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid-container2">
+      <div class="grid-item-kinhnghiem">
+        <div class="grid-container1">
+          <div class="grid-item-kinhnghiem-hoatdong">
+            <h2 class="section-title">Kinh nghiệm</h2>
+          </div>
+          <div class="grid-item-icon">
+            <span class="material-symbols-outlined" style="font-size: 70px">
+              business_center
+            </span>
+          </div>
+        </div>
+        <div class="section-content1 " id='kinhnghiem' style="padding-bottom: 40px">
+          <span id="dots"></span>
+          <span id="more">
+          <ul style="color:blue; padding-bottom:5px">
+            <li><b style="color:black">Full Stack Developer - Công ty Y</b></li>
+          </ul> 
+          <i style="padding-left:40px">05/2022 -</i>
+          <i style="border: 2px solid rgb(127, 179, 251);
+          border-radius: 15px;
+          padding: 0.5px;
+          margin-right:5px;
+          background:rgb(127, 179, 251);
+        ">Hiện tại</i>
+          <ul style="list-style-type: none">
+            <li>
+              -Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu đã có.
+            </li>
+            <li>
+              -Phân tích và thiết kế Database, sử dugnj các hệ quản trị
+              CSDL(MySQL, SQLSever, NoSQL, ....) và viết được các câu truy vấn
+            </li>
+            <li>
+              -Sử dụng ngôn ngữ server-side (Python, Java, ...) để xây dựng các
+              Web Service
+            </li>
+          </ul>
+          <ul style="padding-top: 50px; color:blue">
+          <li><b style="color:black">Web Designer - Công ty X</b></li>
+          </ul>
+           <i style="padding-left:40px">06/2021 - 04/2022</i> 
+          <ul style="list-style-type: none">
+            <li>-Thiết kế Website dự trên yêu cầu của khách hàng</li>
+            <li>-Sử dụng các công cụ: Figma, Canva, PTS.</li>
+          </ul>
+        </span>
+        </div>
+      <button onclick="myFunction()" id="myBtn" class="myBtn">VIEW MORE</button>
+      </div>
+      <div class="grid-item-kinang" style="border: 1px solid #cecece">
+        <div class="grid-container1">
+          <div class="grid-item6">
+            <h2 class="section-title">Kỹ năng</h2>
+          </div>
+          <div class="grid-item-icon">
+            <span class="material-symbols-outlined" style="font-size: 70px">
+              construction
+            </span>
+          </div>
+          <div id='kinang' class="section-content2">
+            <span id="dots1"></span>
+          <span id="more1">
+            <ul style="list-style-type: none">
+              <li><b>HTML/CSS: Fundamental</b></li>
+              <span style="background: #199cdb;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;"></span>
+              <span style="background: #cfd3d4;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;"></span>
+              <span style="background:  #cfd3d4;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;"></span>
+              <li style="padding-top:20px"><b>Javascript: Intermediate</b></li>
+              <span style="background: #199cdb;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;"></span>
+              <span style="background: #199cdb;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;"></span>
+              <span style="background:  #cfd3d4;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;"></span>
+              <li style="padding-top:20px"><b>NodeJS: Intermediate</b></li>
+              <span style="background: #199cdb;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;"></span>
+              <span style="background: #199cdb;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;"></span>
+              <span style="background:  #cfd3d4;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;"></span>
+              <li style="padding-top:20px"><b>Bootstrap 5: Fundamental</b></li>
+              <span style="background: #199cdb;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;"></span>
+              <span style="background:  #cfd3d4;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;"></span>
+              <span style="background:  #cfd3d4;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;"></span>
+            </ul>
+          </span>
+          </div>
+        </div>
+        <button onclick="myFunction1()" id="myBtn1">VIEW MORE</button>
+      </div>
+      <div class="grid-item-ngonngu " style="border: 1px solid #cecece">
+        <div class="grid-container1">
+          <div class="grid-item6">
+            <h2 class="section-title">Ngôn ngữ</h2>
+          </div>
+          <div class="grid-item-icon">
+            <span class="material-symbols-outlined" style="font-size: 70px">
+              keyboard_voice
+            </span>
+          </div>
+          <div id="ngonngu" class="section-content2">
+            <span id="dots2"></span>
+          <span id="more2">
+            <ul style="list-style-type: none">
+              <li><b>Tiếng Anh - IELTS 7.0</b></li>
+              <span style="background: #199cdb;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;"></span>
+              <span style="background: #199cdb;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;"></span>
+              <span style="background:  #cfd3d4;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;"></span>
+              <li style="padding-top:20px"><b>Tiếng Nhật - JLPT N4</b></li>
+              <span style="background: #199cdb;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;"></span>
+              <span style="background:  #cfd3d4;
+              display: inline-block;
+              height: 2px;
+              margin-right: 10px;
+              width: 45px;"></span>
+            </ul>
+            </span>
+          </div>
+        </div>
+        <button onclick="myFunction2()" id="myBtn2">VIEW MORE</button>
+      </div>
+      <div class="grid-item-hoatdong" >
+        <div class="grid-container1">
+          <div class="grid-item-kinhnghiem-hoatdong">
+            <h2 class="section-title">Hoạt động</h2>
+          </div>
+          <div class="grid-item-icon">
+            <span class="material-symbols-outlined" style="font-size: 70px">
+              business_center
+            </span>
+          </div>
+        </div>
+        <div id="hoatdong" class="section-content1">
+          <span id="dots3"></span>
+          <span id="more3">
+          <ul style="color:blue">
+            <li><b style="color:black">FPT Edu Hackathon 2019</b></li>
+          </ul>
+          <i style="padding-left:40px">03/2019-05/2019</i>
+          <ul style="list-style-type: none; padding-bottom: 30px">
+            <li>-Giải 3 bảng A</li>
+            <li>-Đề tài: Trang web về phân loại rác</li>
+          </ul>
+          <ul style="color:blue">
+            <li><b style="color:black">Câu lạc bộ Z</b></li>
+          </ul>
+          <i style="padding-left:40px">08/2016-08/2017</i>
+          <ul style="list-style-type: none">
+            <li>-Trưởng ban chuyên môn</li>
+          </ul>
+          </span>
+        </div>
+        <button onclick="myFunction3()" id="myBtn3">VIEW MORE</button>
+      </div>
+      <div class="grid-item-hocvan " style="border: 1px solid #cecece">
+        <div class="grid-container1">
+          <div class="grid-item6">
+            <h2 class="section-title">Học vấn</h2>
+          </div>
+          <div class="grid-item-icon">
+            <span class="material-symbols-outlined" style="font-size: 70px">
+              border_color
+            </span>
+          </div>
+          <div id="hocvan" class="section-content3">
+            <span id="dots4"></span>
+          <span id="more4">
+            <ul style="color: blue">
+              <li><b style="color:black">FUNiX</b></li>
+            </ul>
+            <i style="padding-left:20px">06/2021-05/2022</i>
+            <ul style="list-style-type: none; padding-bottom: 20px">
+              <li>-Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack</li>
+              <li>-GPA: 9/10</li>
+            </ul>
+            <ul style="color:blue">
+              <li><b style="color:black">Cử nhân - ĐH FPT</b></li>
+              </ul>
+              <i style="padding-left: 20px">08/2016-07/2019</i>
+              <ul style="list-style-type: none; padding-bottom: 20px">
+              <li>-Chuyên ngành: Kỹ thuật phần mềm</li>
+              <li>-GPA: 3.2/4</li>
+              </ul>
+            </ul>
+            </span>
+          </div>
+        </div>
+        <button onclick="myFunction4()" id="myBtn4">VIEW MORE</button>
+      </div>
+      <div class="grid-item-sothich " style="border: 1px solid #cecece">
+        <div class="grid-container1">
+          <div class="grid-item6" style="padding-left:10px">
+            <h2 class="section-title">Sở thích</h2>
+            </div>
+          <div class="grid-item-icon">
+            <span class="material-symbols-outlined" style="font-size: 70px">
+              saved_search
+            </span>
+            </div>
+            </div>
+                <div  class="grid-container4">
+                  <span id="dots5"></span>
+          <span id="more5">
+            <div id="sothich" class="section-content5">
+                  <div class="grid-container5" >
+                    <div class="grid-item-sothich1"> <i class="ic-megaphone" style="font-size:25px"></i></div>
+                    <div class="grid-item-sothich1"><i class="ic-strategy" style="font-size:25px;padding-left: 5px;padding-right: 5px;"></i></div>
+                    <div class="grid-item-sothich1"> <i class="ic-hotairballoon" style="font-size:25px; padding-left: 5px;padding-right: 5px;"></i></div> 
+                    <div class="grid-item-sothich1" ><i class="ic-basket" style="font-size:25px"></i></div> 
+                  </div>
+                      <div class="flex-container1">
+                        <div style="font-size:17px">Âm nhạc</div>
+                        <div style="font-size:17px">Chơi game</div>
+                        <div style="font-size:17px">Du lịch</div>
+                        <div style="font-size:17px">Nấu ăn</div>
+                      </div>
+                      </span>
+                </div>
+
+                <button onclick="myFunction5()" id="myBtn5">VIEW MORE</button>
+                </div>
+                
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 class="section-title-chungchi-giaithuong">
+      Chứng chỉ - Giải thưởng
+    </h2>
+    <div class="grid-container-chungchi-giaithuong">
+      <div class="grid-item7" >
+        <img
+          src="Pictures/Cert_DBI.png"
+         
+        />
+        <div class="section-content4">
+          <ul >
+            <li><b>CHỨNG CHỈ LẬP TRÌNH WEB-FUNIX</b></li>
+          </ul>
+          <ul >
+            <li>-Chứng chỉ thuộc chương trình CCDN</li>
+            <li>-GPA:8.6</li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid-item8">
+        <img
+          src="Pictures/Cert_PRF.png"
+          
+        />
+        <div class="section-content4">
+          <ul >
+            <li><b>CHỨNG CHỈ LẬP TRÌNH JAVASCRIP-FUNIX</b></li>
+          </ul>
+          <ul >
+            <li>-Chứng chỉ thuộc chương trình CCDN</li>
+            <li>-GPA:8.9</li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid-item7-1" >
+        <img
+          src="Pictures/Cert_WEB.png"
+        />
+        <div class="section-content4" >
+          <ul >
+            <li><b>CHỨNG CHỈ THIẾT KẾ DATABASE-FUNIX</b></li>
+          </ul>
+          <ul >
+            <li>-Chứng chỉ thuộc chương trình CCDN</li>
+            <li>-GPA:8.0</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <h2
+      class="section-title4"
+    >
+      Dự án
+    </h2>
+    <div class="grid-container3">
+      <div class="grid-item-duan-cot1">
+        <img src="Pictures/project_1.png" />
+        <div class="section-title" >
+          <b>CV CÁ NHÂN</b>
+        </div>
+        <table style="border-collapse: collapse; border: 1px solid rgb(220, 220, 220);
+        text-align: left;">
+        <tr><ul class="nav2" >
+          <i style="border: 1px solid rgb(127, 179, 251);
+          border-radius: 12px;
+          padding: 3px;
+          margin-right:5px;
+          background:rgb(127, 179, 251)">2021</i>
+        <i class="fa fa-user" style="padding-left:20px;color:#8e8e8e"></i>
+        <a  style="font-family: Arial; padding-left:5px;color:#8e8e8e">FUNiX</a>
+        <span class="material-symbols-outlined" style="font-size:20px; padding-left:20px;color:#8e8e8e">
+          lightbulb
+          </span>
+        <a  style="font-family: Arial;color:#8e8e8e">Deverloper</a>
+        </ul></tr>
+          <tr>
+            <td  >Mô tả</td>
+            <td >Trang Web CV cá nhân online. Gồm các thông tin cá nhân cũng như các kỹ năng nghề nghiệp.</td>   
+          </tr>
+          <tr>
+            <td  >Nhiệm vụ</td>
+            <td >-Phát triển code - Review code - Tối ưu code - Xử lý lỗi</td>   
+          </tr>
+          <tr>
+  
+            <td  >Công nghệ           </td>
+            <td >-HTML, CSS</td>  
+          
+          </tr>
+        </table>
+      </div> 
+      <div class="grid-item10">
+        <img src="Pictures/project_2.png" style="width: 100%; height:270px;margin-bottom:-5px" />
+        <table style="border-collapse: collapse; border: 1px solid rgb(220, 220, 220);
+        text-align: left ">
+        <div class="section-title" style="padding-left: 20px; padding-top:15px; padding-bottom:15px; border-left: 1px solid rgb(220, 220, 220);
+        border-right: 1px solid rgb(220, 220, 220);border-top: 1px solid rgb(220, 220, 220)">
+          <b>TRANG WEB QUẢN LÝ THÚ CƯNG</b>
+        </div>
+        <ul class="nav2">
+          <i style="border: 1px solid rgb(127, 179, 251);
+          border-radius: 12px;
+          padding: 3px;
+          margin-right:5px;
+          background:rgb(127, 179, 251)">2021</i>
+        <i class="fa fa-user" style="padding-left:20px;color:#8e8e8e"></i>
+        <a  style="font-family: Arial; padding-left:5px;color:#8e8e8e">FUNiX</a>
+        <span class="material-symbols-outlined" style="font-size:20px; padding-left:20px;color:#8e8e8e">
+          lightbulb
+          </span>
+        <a  style="font-family: Arial;color:#8e8e8e">Deverloper</a>
+        </ul>
+          <tr>
+            <td  >Mô tả</td>
+            <td >Ứng dụng giúp quản lý cacs thông tin của thú cưng như: Cân nặng, giống ,tình trạng tiêm trủng ...Bao gồm các chức năng thêm / sửa / xóa.</td>   
+          </tr>
+          <tr>
+            <td >Nhiệm vụ</td>
+            <td >-Phát triển code - Review code - Tối ưu code - Xử lý lỗi</td>   
+          </tr>
+          <tr>
+            <td >Công nghệ           </td>
+            <td >-HTML, CSS, Javascript</td>   
+          </tr>
+        </table>
+      </div>
+      <div class="grid-item11" >
+        <img src="Pictures/project_3.png" style="width: 100%; height:270px;margin-bottom:-5px" />
+        <div class="section-title" style="padding-left: 20px; padding-top:15px; padding-bottom:20px; border-left: 1px solid rgb(220, 220, 220)  ;
+        border-right: 1px solid rgb(220, 220, 220);border-top: 1px solid rgb(220, 220, 220)">
+          <b>TRANG WEB XEM TIN TỨC</b>
+        </div>
+        <ul class="nav2" >
+          <i style="border: 1px solid rgb(127, 179, 251);
+          border-radius: 12px;
+          padding: 3px;
+          margin-right:5px;
+          background:rgb(127, 179, 251)">2021</i>
+        <i class="fa fa-user" style="padding-left:20px;color:#8e8e8e"></i>
+        <a  style="font-family: Arial; padding-left:5px;color:#8e8e8e">FUNiX</a>
+        <span class="material-symbols-outlined" style="font-size:20px; padding-left:20px;color:#8e8e8e">
+          lightbulb
+          </span>
+        <a  style="font-family: Arial;color:#8e8e8e">Deverloper</a>
+        </ul>
+        <table style="border-collapse: collapse; border: 1px solid rgb(220, 220, 220);
+        text-align: left ">
+          <tr>
+            <td >Mô tả</td>
+            <td >Trang Web xem tin tức từ nhiều nguồn khác nhau, người dùng có thể tìm kiếm các tin tức dựa theo các từ khóa.</td>   
+          </tr>
+          <tr>
+            <td >Nhiệm vụ</td>
+            <td >-Phát triển code - Review code - Tối ưu code - Xử lý lỗi</td>   
+          </tr>
+          <tr>
+            <td >Công nghệ           </td>
+            <td >-HTML, CSS, Javascript</td>   
+          </tr>
+        </table>
+      </div>
+    </div>
+    <ul class="nav1">
+      <i
+            class="fa fa-facebook"
+            style="
+            font-size: 20px;
+            padding: 3px 7px 2px 6px;
+            margin: 5px;
+            color: rgb(255, 255, 255);
+  border: 1px solid rgb(65, 47, 227);
+  border-radius: 50%;
+  background: blue;
+          "></i>
+          <a style="font-family: Arial; color:#949c9f; " >Facebook</a>
+          <i
+            class="fa fa-linkedin"
+            style="
+            font-size: 20px;
+            padding: 4px 6px 3px 5px;
+            margin: 5px;
+            color: rgb(255, 255, 255);
+  border: 1px solid rgb(65, 47, 227);
+  border-radius: 50%;
+  background: blue;"
+          ></i>
+          <a style="font-family: Arial; color:#949c9f" >Linkedin</a>
+          <i1
+            class="fa fa-github"
+            style="
+             font-size: 20px;
+            padding: 4px 6px 3px 5px;
+            margin: 5px;
+            color: rgb(255, 255, 255);
+  border: 1px solid rgb(65, 47, 227);
+  border-radius: 50%;
+  background: blue;"
+            "
+          ></i1>
+          <a style="font-family: Arial; color:#949c9f;font-size:17px" >Github</a>
+    </ul>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </body>
+</html>

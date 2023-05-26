@@ -78,30 +78,19 @@ function myfunction() {
   const hidden = document.getElementById("hidden");
   const btn = document.getElementById("btnsubmit");
   const form = document.getElementById("frm1");
-  btn.addEventListener("click", function (e) {
+  var email = document.getElementById("email").value;
+  const mailformat =
+    /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+  /*btn.addEventListener("click", function (e) {*/
+  /*hidden.classList.remove("hidden");
+    form.style.display = "none";*/
+
+  if (mailformat.test(email)) {
     hidden.classList.remove("hidden");
     form.style.display = "none";
-
-    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-    if (inputText.value.match(mailformat)) {
-      alert("Valid email address!");
-      document.form1.text1.focus();
-      return true;
-    } else {
-      alert("You have entered an invalid email address!");
-      document.form1.text1.focus();
-      return false;
-    }
-  });
-
-  /*var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-  if (inputText.value.match(mailformat)) {
-    alert("Valid email address!");
-    document.form1.text1.focus();
-    return true;
   } else {
-    alert("You have entered an invalid email address!");
-    document.form1.text1.focus();
+    alert("Hay nhap dia chi email hop le.\nExample@gmail.com");
     return false;
-  }*/
+  }
 }
